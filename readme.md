@@ -13,6 +13,7 @@ Enter these commands to create a folder for your page, initialize Git inside it,
 ```sh
 $ mkdir love_song
 $ cd love_song
+$ atom .
 $ git init
 ```
 
@@ -24,7 +25,9 @@ $ git init
 $ touch index.html
 ```
 
-Add this boilerplate HTML to `index.html`:
+Add this boilerplate HTML to `index.html` using Atom.
+
+> ...or SublimeText, or whatever text editor you're using. You can just copy and paste this entire chunk.
 
 ```html
 <!DOCTYPE html>
@@ -74,6 +77,8 @@ $ git checkout wip-lyrics
 - `git checkout`: Switches over to another branch
 
 ## 4. Milt added the first line of the L-O-V-E song to his HTML
+
+> Replace the contents of index.html with this. Again, I recommend copying and pasting -- only 3 lines are actually changing, but the Git stuff is the important part of this lesson, not the HTML. 
 
 ```html
 <!DOCTYPE html>
@@ -128,11 +133,15 @@ $ touch styles.css
 
 ...and he wrote some cutting-edge CSS:
 
+> In styles.css:
+
 ```css
 body{
   text-align:center;
 }
 ```
+
+> In index.html:
 
 ```html
 <!DOCTYPE html>
@@ -171,6 +180,8 @@ He noticed that the `<title>` was "My Page", which wasn't very descriptive, so h
 $ git checkout wip-lyrics
 ```
 
+> In index.html:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -193,6 +204,8 @@ $ git commit -m "Fixed title"
 ```
 
 ## 9. Then, he added another line of lyrics
+
+> In index.html:
 
 ```html
 <!DOCTYPE html>
@@ -263,6 +276,8 @@ Simply remove the lines you don't want to keep in your commit history. You don't
 
 ## 13. Milt resolved the merge conflict by removing the lines he didn't want
 
+> In index.html:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -296,6 +311,8 @@ They came to him in a flash of inspiration.
 $ git checkout wip-lyrics
 ```
 
+> In index.html:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -327,6 +344,8 @@ He was so excited he didn't even bother merging his lyrics changes into `master`
 ```sh
 $ git checkout wip-css
 ```
+
+> In styles.css:
 
 ```css
 body{
