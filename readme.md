@@ -342,6 +342,10 @@ $ git commit -m "Added some very Web2.0 fonts"
 
 ## 16. Finally, Milt decided to merge in his HTML and CSS changes
 
+When you `git merge` and there aren't merge conflicts, Atom (or whichever default text edtior you have) will open and ask you what you want your commit message to be.
+
+You don't need to do anything -- you can literally just save and quit Atom.
+
 ```sh
 $ git checkout master
 $ git merge wip-css
